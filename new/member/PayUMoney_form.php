@@ -16,8 +16,8 @@
 include('data.php');
 if (isset($_POST['payment'])) 
 {
-define('MERCHANT_KEY', 'MJniD3wU');
-define('SALT', 'X42vitOlPS');
+define('MERCHANT_KEY', '');
+define('SALT', '');
 define('PAYU_BASE_URL', 'https://secure.payu.in');    //Testing url
 //define('PAYU_BASE_URL', 'https://secure.payu.in');  //actual URL
 define('SUCCESS_URL', 'https://www.acumenece.info/member/order-success.php');  //have complete url
@@ -72,8 +72,8 @@ else
 
 if (isset($_POST['pay'])) 
 {
-define('MERCHANT_KEY', 'MJniD3wU');
-define('SALT', 'X42vitOlPS');
+define('MERCHANT_KEY', '');
+define('SALT', '');
 define('PAYU_BASE_URL', 'https://secure.payu.in');    //Testing url
 //define('PAYU_BASE_URL', 'https://secure.payu.in');  //actual URL
 define('SUCCESS_URL', 'https://www.acumenece.info/member/success.php');  //have complete url
