@@ -7,7 +7,7 @@
 	$key = $_POST["key"];
 	$productinfo = $_POST["productinfo"];
 	$email = $_POST["email"];
-	$salt = "X42vitOlPS";
+	$salt = "";
 	include('data.php');
 	
 		
